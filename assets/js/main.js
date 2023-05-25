@@ -16,9 +16,11 @@ $(function () {
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
             $(".navbar-area img").attr("src", "assets/images/logo.png");
+            $(".navbar-area img").attr("width", 175);
         } else {
             $(".navbar-area").addClass("sticky");
             $(".navbar-area img").attr("src", "assets/images/logo-2.png");
+            $(".navbar-area img").attr("width", 55);
         }
     });
 
